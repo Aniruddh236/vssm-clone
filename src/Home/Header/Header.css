@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Noto+Serif+Gujarati:wght@100..900&family=Rubik+Wet+Paint&display=swap');
+
+/* First part styling---------------------- */
+
+
+.headerContainer{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+
+
+.first-part{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    align-items: center;
+    padding: 1rem;
+    /* width: 100%; */
+}
+
+.first-part img{
+    height: 5rem;
+    margin-left: 50px;
+}
+
+
+.logo-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.logo-and-name h2,
+.logo-and-name h4 {
+    margin: 0;
+    padding: 0;
+   text-align: center;
+}
+.gujarati-font{
+    font-family: "Noto Serif Gujarati", serif;
+  font-optical-sizing: auto;
+  font-size: x-large;
+  font-style: normal;
+  margin-top: 0px;
+}
+
+
+
+
+/* Second part styling---------------------- */
+.second-part{
+ 
+    background-color: brown;
+    /* border: 2px solid red; */
+}
+.header-part{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+li{
+    list-style-type: none;
+}
+
+.no-style{
+    text-decoration: none;
+    color: inherit;
+}
+
+.active{
+    color: rgb(221, 254, 55)
+}
+
+/* hanmburger styling */
+.hamburger{
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+    /* border: 2px solid black; */
+    color: white;
+    background-color: brown;
+}
+
+
+
+/* applying better UI experience to Navigation */
+
+@media (max-width:960px){
+
+    .first-part{
+        justify-content: center;
+    }
+
+    .logo-part{
+        display: block;
+        text-align: center;
+        /* border: 1px solid black; */
+    }
+
+    .logo-part img{
+        /* border: 1px solid black; */
+        position: relative;
+        left: -1rem;
+    }
+
+    .header-part{
+        display: none;
+        flex-direction: column;
+        justify-content: flex-end;
+        background-color: brown;
+        width: 100%;
+        padding-left: 1rem;
+
+    }
+    .hamburger{
+        display: block;
+        text-align: center;
+    }
+    
+    .header-part.open{
+        display: flex;
+    }
+}
