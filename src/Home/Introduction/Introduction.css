@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Cabin+Sketch:wght@400;700&family=Noto+Serif+Gujarati:wght@100..900&family=Rubik+Wet+Paint&display=swap');
+
+.introContainer {
+    /* border: 1px solid black; */
+    margin: 0%;
+    width: 100%;
+    max-width: 100%;
+}
+
+.carousel-container {
+    width: 100%;
+    /* Make the carousel fill the container width */
+    max-width: 100%;
+    /* Ensure it doesn't exceed the container's max width */
+    position: relative
+}
+
+.carousel-item img {
+    width: 100%;
+    /* Ensure images fill the width of the container */
+    height: 300px;
+    /* Set a fixed height to maintain uniformity */
+    object-fit: cover;
+    /* Make sure the image covers the container without distortion */
+}
+
+.description {
+    padding: 1rem;
+    text-align: center;
+    font-size: xx-large;
+    font-family: "Annie Use Your Telescope", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+.numbers-container {
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: space-around;
+    text-align: center;
+    width: 100%;
+}
+
+.numbers-container p {
+    font-size: x-large;
+    font-weight: bold;
+    margin: 0px;
+}
+
+
+
+.video-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 5rem;
+    /* border: 1px solid black; */
+}
+
+
+
+
+@media(max-width: 968px) {
+    .numbers-container {
+        display: flex;
+        flex-direction: column;
+        /* border: 1px solid black; */
+        /* justify-content: space-around; */
+        text-align: center;
+        width: 100%;
+    }
+
+    .animated-number-individual {
+        padding-bottom: 1.5rem;
+    }
+
+    .numbers-container p {
+        font-size: large;
+        font-weight: lighter;
+        margin: 0px;
+        color: rgb(6, 6, 6);
+    }
+
+
+
+
+}

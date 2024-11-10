@@ -31,6 +31,7 @@
     justify-content: space-between;
     align-items: center;
     justify-content: center;
+    
 
 }
 
@@ -108,11 +109,13 @@ li{
         left: -1rem;
     }
 
+
+    
+
     .header-part{
         display: none;
         flex-direction: column;
         justify-content: flex-end;
-        background-color: brown;
         width: 100%;
         padding-left: 1rem;
 
@@ -124,5 +127,8 @@ li{
     
     .header-part.open{
         display: flex;
+
     }
+
+    
 }

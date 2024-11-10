@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "./Header/Header";
-import Introduction from "./Introduction";
+import Introduction from "./Introduction/Introduction";
 import Initiative from "./Initiative";
 import Blogs from './Blogs';
 import Volunteer from "./Volunteer";

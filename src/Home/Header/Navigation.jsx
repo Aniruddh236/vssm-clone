@@ -12,7 +12,8 @@ export default function Navigation(){
         setIsOpen(!isOpen);
     }
     return<>
-         <nav className="second-part ">
+  
+         <nav className="second-part" >
                 <ul className={`header-part ${isOpen ? 'open' : ''}`}>
                     <li><NavLink to="/" activeClassName="active" className="no-style" >Home</NavLink></li>
                     <li><NavLink to="/about" activeClassName="active" className="no-style">About</NavLink></li>
