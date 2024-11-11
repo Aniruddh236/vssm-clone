@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Cabin+Sketch:wght@400;700&family=Noto+Serif+Gujarati:wght@100..900&family=Rubik+Wet+Paint&display=swap');
+
+
+
+.initiative-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.initiative-content header {
+    text-align: center;
+
+}
+
+
+
+.left-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+    text-align: center;
+    /* font related css */
+    font-size: medium;
+    font-family: "Annie Use Your Telescope", cursive;
+    font-weight: 400;
+    font-style: normal;
+    /* background related css */
+    background-color:brown;
+    color: white;
+
+
+}
+
+.left-part h1 {
+    margin-top: 0px;
+}
+
+.right-part {
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+.right-part .providing {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+
+@media (max-width:980px) {
+    .initiative-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .left-part {
+        font-size: small;
+        background-color: brown
+
+    }
+
+    .right-part{
+        margin-top: 1rem;
+    }
+    .right-part .providing{
+        display: flex;
+        flex-direction: column;
+    }
+
+}

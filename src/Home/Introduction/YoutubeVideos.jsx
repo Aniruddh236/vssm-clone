@@ -5,9 +5,7 @@ import { Button } from "@mui/material";
 export default function YoutubeVideos() {
 
     // const API_KEY = 'AIzaSyDcAcppEsOl93-2kpT7T5yYWN_hI08E_V8';
-    const API_KEY = '';
-
-
+    const API_KEY = ''
 
     const [videos, setVideos] = useState([]);
 
@@ -28,14 +26,16 @@ export default function YoutubeVideos() {
     return <>
         <div className="video-container">
             {
-                !videos ? (<Button variant="outlined" color="yellow">
-                    <a
-                        href="https://www.youtube.com/user/NomadDenomads"
-                        style={{textDecoration:'none'}}
-                    >
-                        Voice of the Voiceless YT Channel
-                    </a>
-                </Button>) :
+                !videos ? (
+                    <Button variant="outlined" color="yellow">
+                        <a
+                            href="https://www.youtube.com/user/NomadDenomads"
+                            style={{ textDecoration: 'none' }}
+                        >
+                            Voice of the Voiceless YT Channel
+                        </a>
+                    </Button>
+                ) :
                     (videos.map((video, index) => (
                         <div key={video.id.videoId} className="video-item">
                             <img

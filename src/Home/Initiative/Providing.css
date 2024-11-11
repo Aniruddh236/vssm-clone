@@ -1,0 +1,18 @@
+.providing-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    /* border: 1px solid black; */
+}
+
+.providing-container img{
+    width: 5rem;
+    height: 5rem
+}
+
+.providing-container .card-detail{
+    margin: 1rem;
+}

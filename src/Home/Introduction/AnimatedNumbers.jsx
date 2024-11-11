@@ -30,5 +30,6 @@ export default function AnimatedNumbers({ target, timeTaken = 10, jump = 1 }) {
 
     return <>
         <Typography variant="h2" color="brown" fontFamily={"revert"}>{formatNumber(Math.round(number))}</Typography>
+    
     </>
 }
