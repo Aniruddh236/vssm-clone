@@ -5,6 +5,7 @@
 .initiative-content {
     display: grid;
     grid-template-columns: 1fr 2fr;
+
 }
 
 .initiative-content header {
@@ -59,16 +60,20 @@
 
     .left-part {
         font-size: small;
-        background-color: brown
-
+        background-color: brown;
     }
 
     .right-part{
         margin-top: 1rem;
     }
+
     .right-part .providing{
         display: flex;
         flex-direction: column;
+    }
+
+    .right-part header{
+        font-size: large;
     }
 
 }

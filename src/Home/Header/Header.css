@@ -91,7 +91,7 @@ li{
 
 /* applying better UI experience to Navigation */
 
-@media (max-width:960px){
+@media (max-width:980px){
 
     .first-part{
         justify-content: center;

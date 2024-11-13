@@ -27,10 +27,12 @@ export default function YoutubeVideos() {
         <div className="video-container">
             {
                 !videos ? (
-                    <Button variant="outlined" color="yellow">
+                    <Button 
+                    variant="outlined"
+                    sx={{ backgroundColor: 'brown'}}>
                         <a
                             href="https://www.youtube.com/user/NomadDenomads"
-                            style={{ textDecoration: 'none' }}
+                            style={{ textDecoration: 'none', color:'white' }}
                         >
                             Voice of the Voiceless YT Channel
                         </a>

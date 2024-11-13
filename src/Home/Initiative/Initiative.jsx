@@ -21,7 +21,7 @@ export default function Initiative() {
                 </div>
                 <div className="right-part">
                     <header>
-                        <Typography variant="h3" fontFamily={"revert"}>Our Initiatives</Typography>
+                        <Typography variant="h2" fontFamily={"revert"}>Our Initiatives</Typography>
                     </header>
                     <div className="providing">
                         <Providing />

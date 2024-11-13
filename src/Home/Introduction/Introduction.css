@@ -59,10 +59,17 @@
     /* border: 1px solid black; */
 }
 
+.video-container:hover {
+    transform: scale(1.05);
+    /* Slightly enlarges on hover */
+    transition: transform 0.3s ease;
+    /* Smooth animation */
+}
 
 
 
-@media(max-width: 968px) {
+
+@media(max-width: 980px) {
     .numbers-container {
         display: flex;
         flex-direction: column;
