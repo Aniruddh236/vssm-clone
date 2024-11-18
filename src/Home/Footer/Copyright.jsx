@@ -17,7 +17,7 @@ export default function Copyright(){
       }}
     >
       <Typography variant="body2" color="white">
-        © {new Date().getFullYear()} Your Website Name. All rights reserved.
+        © {new Date().getFullYear()} www.aniruddhsinhparmar.com. All rights reserved.
       </Typography>
     </Box>
     </>
