@@ -3,7 +3,7 @@ import Header from "./Header/Header";
 import Introduction from "./Introduction/Introduction";
 import Initiative from "./Initiative/Initiative";
 import Volunteer from "./Volunteer/Volunteer";
-import Footer from "./Footer";
+import Footer from "./Footer/Footer";
 
 import './style/Home.css'
 import Blogs from "./Blogs/Blogs";
@@ -19,9 +19,7 @@ export default function Home() {
             <Initiative />
             <Blogs />
             <Volunteer />
-            {/* 
-            
-            <div style={{ background: "lightcoral", padding: "10px" }}><Footer /></div>  */}
+            <Footer />
         </div>
     </>
 }
